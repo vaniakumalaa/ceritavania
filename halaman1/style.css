@@ -1,0 +1,36 @@
+body{
+    background-image: url(background5.jpg);
+}
+
+nav{
+    background-color: #000000;
+}
+
+.judul{
+    padding-top: 2rem;
+}
+
+.cerita{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+img:hover{
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+@media screen and (max-width:1023px){
+    .cerita{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:720px){
+    img{
+        width: 40%;
+        float: none;
+        
+    }
+}

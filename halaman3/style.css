@@ -1,0 +1,70 @@
+body{
+    background-image: url(background17.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 140px;
+    height: 100%;
+    z-index: 1000;
+}
+
+.judul{
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.cerita{
+  margin-left: 5%;
+  margin-right: 15%;
+  font-size: 20px;
+}
+
+img{
+  width: 15%;
+  float: left;
+  margin-bottom: 3%;
+  margin-right: 3%;
+}
+
+img:hover{
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+@media screen and (max-width:1023px){
+  .navbar {
+    width: 120px;
+  }
+  img{
+      width: 20%;
+      float: none;
+  }
+  .cerita{
+      font-size: 15px;
+      margin-right: 20%;
+  }
+}
+
+@media screen and (max-width:720px){
+  .navbar {
+    width: 110px;
+  }
+  .judul{
+    margin-left: 5%;
+    text-align: start;
+  }
+  img{
+      width: 40%;
+      float: none;
+  }
+  .cerita{
+    margin-left: 5%;
+    margin-right: 28%;
+    font-size: 15px;
+  }
+}

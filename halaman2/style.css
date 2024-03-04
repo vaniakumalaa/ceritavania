@@ -1,0 +1,49 @@
+body{
+    background-image: url(background8.jpg);
+}
+
+nav{
+    background-color: #000;
+}
+
+.judul{
+    padding-top: 2rem;
+}
+
+.cerita{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+img{
+    width: 15%;
+    float: right;
+    margin-bottom: 4%;
+}
+
+img:hover{
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+@media screen and (max-width:1023px){
+    img{
+        width: 20%;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cerita{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:720px){
+    img{
+        width: 30%;
+        float: none;
+        
+    }
+}
